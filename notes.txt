@@ -1,0 +1,6 @@
+Key Concepts required for this Prijects:-
+
+1. document.querySelector()
+2. addEventListener()
+3. Math Object
+4. innerText
