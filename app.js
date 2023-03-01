@@ -1,9 +1,11 @@
-// variables
+// ---------------- variables -----------------------------------
 
 let btn = document.querySelector('#new-quote');
 let quotes = document.querySelector('.quotes');
 let saidBy = document.querySelector('.said-by')
 
+
+// ---------------- Quotes Libraray ------------------------------
 const quotesLibraray = [{ 
     quotes: "Don’t just read the easy stuff. You may be entertained by it, but you will never grow from it.",
     saidBy: " Jim Rohn"
@@ -18,6 +20,9 @@ const quotesLibraray = [{
     saidBy: " Bruce Lee"
 }, ];
 
+
+
+// --------------------- Event listeners ---------------------------
 btn.addEventListener('click', function() {
 
     let random = Math.floor(Math.random() * quotesLibraray.length);
